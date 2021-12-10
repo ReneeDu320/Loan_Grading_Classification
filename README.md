@@ -18,7 +18,8 @@ The analysis includes descriptive statistics to visualize data. The project also
 ## Conclusion
 
 Loan grading is a classification system that involves assigning a quality score to a loan based on a borrower's credit history, quality of the collateral, and the likelihood of repayment of the principal and interest. We can conclude from the above figures that the average interest_rate arises when the loan grade becomes lower. For loan grade from A to G, the average paid total, average paid principle and average paid total to loan percentage increases. To explore the reason of this trend, we also plot the average loan amount by loan grade. From the result we can conclude that the loans which have lower grades usually have larger average loan amounts so that drive up the average paid total amount for the low-grade loans.
+An RMSE at around 1.08 of the final prediction model indicates that the lending interest rate can be interpreted by the grade, verified income, debt_to_income.
 
-## how to produce the report
+## How to produce the report
 
 The first step is to run the Dockerfile in this repository. When the environment is set up, you can use the Makefile to produce the final project.pdf. 
