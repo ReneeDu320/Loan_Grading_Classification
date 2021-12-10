@@ -1,0 +1,8 @@
+data <- read_csv("derived_date/loans_tidied.csv")
+data <- na.omit(data)
+train$predicted <- predict(lm3, newdata = train, interval="prediction")
+test$predicted <- predict(lm3, newdata = test, interval="prediction")
+RMSE1 = sqrt(mean((train$interest_rate - train$predicted)^2))
+print(RMSE1)
+RMSE2 =sqrt(mean((test$interest_rate - test$predicted)^2))
+print(RMSE2)
