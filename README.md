@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/Category-ML--Visualization-success)
+![](https://img.shields.io/badge/Program-R-pink)
+![](https://img.shields.io/badge/Resource-Open-blue)
 # final_project
 ## Introduction to Project
 This is the project for BIOS611 Intro to DataSci.  
